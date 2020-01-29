@@ -12,5 +12,6 @@ namespace DataTransferObjects
         public DateTime DataDeEdicao { get; set; }
         public DateTime DataDeExclusao { get; set; }
         public DateTime DataDeConclusao { get; set; }
+        public bool Excluido { get; set; }
     }
 }
